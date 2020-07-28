@@ -46,4 +46,24 @@ Step-4: Repeat Step 1 & 2.
 
 Step-5: For new data points, find the predictions of each decision tree, and assign the new data points to the category that wins the majority votes.
 
+# Applications of Random Forest
+There are mainly four sectors where Random forest mostly used:
+
+Banking: Banking sector mostly uses this algorithm for the identification of loan risk.
+
+Medicine: With the help of this algorithm, disease trends and risks of the disease can be identified.
+
+Land Use: We can identify the areas of similar land use by this algorithm.
+
+Marketing: Marketing trends can be identified using this algorithm.
+
+# Advantages of Random Forest
+Random Forest is capable of performing both Classification and Regression tasks.
+It is capable of handling large datasets with high dimensionality.
+It enhances the accuracy of the model and prevents the overfitting issue.
+
+# Disadvantages of Random Forest
+Although random forest can be used for both classification and regression tasks, it is not more suitable for Regression tasks.
+
+
 
