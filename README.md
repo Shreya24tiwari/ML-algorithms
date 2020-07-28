@@ -18,3 +18,32 @@ Random Forest is a popular machine learning algorithm that belongs to the superv
 As the name suggests, "Random Forest is a classifier that contains a number of decision trees on various subsets of the given dataset and takes the average to improve the predictive accuracy of that dataset." Instead of relying on one decision tree, the random forest takes the prediction from each tree and based on the majority votes of predictions, and it predicts the final output.
 
 ### The greater number of trees in the forest leads to higher accuracy and prevents the problem of overfitting.
+### To better understand the Random Forest Algorithm, you should have knowledge of the Decision Tree Algorithm.
+
+# Assumptions for Random Forest
+Since the random forest combines multiple trees to predict the class of the dataset, it is possible that some decision trees may predict the correct output, while others may not. But together, all the trees predict the correct output. Therefore, below are two assumptions for a better Random forest classifier:
+
+There should be some actual values in the feature variable of the dataset so that the classifier can predict accurate results rather than a guessed result.
+The predictions from each tree must have very low correlations.
+
+# Why use Random Forest?
+Below are some points that explain why we should use the Random Forest algorithm:
+
+It takes less training time as compared to other algorithms.
+It predicts output with high accuracy, even for the large dataset it runs efficiently.
+It can also maintain accuracy when a large proportion of data is missing.
+
+# How does Random Forest algorithm work?
+Random Forest works in two-phase first is to create the random forest by combining N decision tree, and second is to make predictions for each tree created in the first phase.
+
+Step-1: Select random K data points from the training set.
+
+Step-2: Build the decision trees associated with the selected data points (Subsets).
+
+Step-3: Choose the number N for decision trees that you want to build.
+
+Step-4: Repeat Step 1 & 2.
+
+Step-5: For new data points, find the predictions of each decision tree, and assign the new data points to the category that wins the majority votes.
+
+
